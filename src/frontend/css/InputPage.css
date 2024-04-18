@@ -1,0 +1,36 @@
+.inputPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 화면 높이 전체를 사용합니다. */
+  background: url('../food-2879202_1280.jpg') center/cover rgba(245, 245, 220, 0.7); /* 배경 이미지와 투명도 설정 */
+}
+.center{
+  text-align: center;
+}
+.input-text{
+    color: #000000;
+    font-family: "Gowun Dodum", sans-serif;
+    font-size : 18px;
+    font-style: normal;
+   
+  }
+  .input-logo{
+    color: #000000;
+    font-family: "Gowun Dodum", sans-serif;
+    font-size : 36px;
+    font-style: normal;
+    text-align: center;
+    opacity: 0; 
+    animation: fadeInAnimation 2s ease-in-out forwards;
+  }
+  .input-logo2{
+    color: #000000;
+    font-family: "Gowun Dodum", sans-serif;
+    margin-bottom: 20px;
+    font-size : 20px;
+    font-style: normal;
+    text-align: center;
+    opacity: 0; /* 초기에 투명하게 설정 */
+    animation: fadeInAnimation 2s ease-in-out forwards;
+  }
